@@ -61,6 +61,11 @@ Podemos ver el contenido ya en la carpeta
 
 ![image](https://github.com/alopez2003/dapps1/assets/67942268/79f75f31-9947-439f-839c-c2cd348fb7f2)
 
+Cabe mencionar que el Smart Contract que ocuparemos para la verificación de integridad en la blockchain de un archivo lo tomamos modificando el archivo de [Auction.sol](https://github.com/Diegoescalonaro/auction-smartcontract/blob/master/Auction.sol), también de Diego Rodriguez.
+
+El archivo se llama Integrity.sol, mismo que anexo en este repositorio.
+
+Ejecutamos ganache 
 
 
 

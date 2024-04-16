@@ -67,6 +67,33 @@ El archivo se llama Integrity.sol, mismo que anexo en este repositorio.
 
 Ejecutamos ganache 
 
+![image](https://github.com/alopez2003/dapps1/assets/67942268/aad0cad5-e071-4647-96a9-d23d3ebd2aea)
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/9422c092-61f1-4d9d-bcbb-a1c5661711d8)
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/e5b92f6e-9731-4cb0-a5cf-f5927f293237)
+
+Añadimos el archivo Integrity.sol a la carpeta de contratos
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/7838a6b3-e20a-4bc9-993e-25d14c9faea2)
+
+Modificamos el script de despliegue para que despliegue el contrato de Integrity
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/08f2e242-3251-4ed1-b04e-90d0b8a147fb)
+
+Modificamos el archivo truffle-config.js para que coincida el puerto de conexión de ganache, tenía el 8545 y está ejecutando sobre el 7545 con el network ID 5777
+
+<![image](https://github.com/alopez2003/dapps1/assets/67942268/92be1aa9-91a6-470e-b5f9-ee7a1281bd13)
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -83,7 +83,29 @@ Modificamos el script de despliegue para que despliegue el contrato de Integrity
 
 Modificamos el archivo truffle-config.js para que coincida el puerto de conexión de ganache, tenía el 8545 y está ejecutando sobre el 7545 con el network ID 5777
 
-<![image](https://github.com/alopez2003/dapps1/assets/67942268/92be1aa9-91a6-470e-b5f9-ee7a1281bd13)
+![image](https://github.com/alopez2003/dapps1/assets/67942268/92be1aa9-91a6-470e-b5f9-ee7a1281bd13)
+
+Añadimos la red de Ganache y tres cuentas a MetaMask
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/e8472615-81d8-42c3-aa0c-92f4b26df3b3)
+
+Cuenta 1 (Ganache 1) Address 0x2989db0E81301A93D0E3d1052C8D395F97Ac5042
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/299f9fdb-0720-478e-a02a-801fad1e5f0f)
+
+Cuenta 2 (Ganache 2) Address 0x24CD225A69F6FAC096e08f87C3b458FF6ff61FE4
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/13526e32-c086-49ec-8c60-1e29a7739204)
+
+Cuenta 3 (Ganache 3) Address 0xdFFcA12A955255D8E6BD95F2E7bf5037481C39f3
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/c3712c46-c93e-4f57-a19e-f90a2078721c)
+
+
+
+
+
+
 
 
 

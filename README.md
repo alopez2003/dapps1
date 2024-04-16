@@ -101,6 +101,37 @@ Cuenta 3 (Ganache 3) Address 0xdFFcA12A955255D8E6BD95F2E7bf5037481C39f3
 
 ![image](https://github.com/alopez2003/dapps1/assets/67942268/c3712c46-c93e-4f57-a19e-f90a2078721c)
 
+Posteriormente ejecutamos truffle para compilar los contratos con "truffle migrate --network ganache" desde que estamos haciendo todo con la red de ganache
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/bd3dac8f-068a-41cf-a8db-870d5f2a7fe9)
+
+Tuvimos un problema con la compilación del SimpleStorage.sol, desde que realmente no lo necesitamos, lo vamos a quitar del script de despliegue
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/6da7c033-9d59-4bab-b9fa-fcbd42da01d7)
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/726c17cd-844c-4b35-8a40-2ebb0d2fee41)
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/b445d176-54fc-4153-8037-a7353eb50049)
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/654346b2-f0cb-49af-8db0-87cc2db8025b)
+
+Vemos en las transacciones de Ganache que ya tenemos una
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/0bfb52d7-f46f-47f0-a6a2-40dd64b1e6ab)
+
+Nota: por las versiones de truffle y de los contratos, tuvimos que hacer algunas adecuaciones a los contratos y también a las configuraciones, anexo las ligas que consulté para dicho fin
+
+[https://stackoverflow.com/questions/76377136/migrations-hit-an-invalid-opcode-while-deploying](https://stackoverflow.com/questions/76377136/migrations-hit-an-invalid-opcode-while-deploying)
+[https://www.edureka.co/community/33078/solidity-error-syntaxerror-no-visibility-specified](https://www.edureka.co/community/33078/solidity-error-syntaxerror-no-visibility-specified)
+
+
+
+
+
+
+
+
+
 
 
 

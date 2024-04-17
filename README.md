@@ -150,50 +150,37 @@ Y así funcionó correctamente
 
 ![image](https://github.com/alopez2003/dapps1/assets/67942268/126e7acd-7121-40b0-a22c-d6b7e0d6900d)
 
+Ya estaba ejecutando la primera parte que es decir la red y la cuenta, sin embargo al hacer las demás modificaciones, compila todo muy bien, sin embargo me aparecen errores:
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/4e07f77b-bb81-4b66-8068-39a16d38c507)
+
+Estaré investigando al respecto, no estoy seguro que me de tiempo para la entrega de la tarea, sin embargo seguiré revisando, mientras tanto dividiré los archivos que he compilado en dos fases, espero llegar a la Fase 2. La Fase 1 es la que tiene los archivos como los tengo hasta ahora.
+
+En esta carpeta voy a poner los siguientes archivos:
+
+- Integrity.sol
+- truffle-config.js
+- Apps.js
+- Integrity.json
+
+Mientras respondo las preguntas planteadas en el Sprint:
+
+**- Cúal es la finalidad / propósito de la DApp? **
+Tal cual fue planteado en el Sprint 1, el objetivo de esta DApp es poder darle utilidad a la integridad de la blockchain para otro campo de la informática que es la ciberseguridad. La mayor parte de los productos o desarrollos en ese ámbito, se centran en la disponibilidad y la confidencialidad (la mayor parte es en este rubro), sin embargo la integridad no lo es.
+Gracias Diego por darme luz por donde desarrollar esto, probé el smart contract y funciona bien en la parte inicial, donde estableciendo manualmente un hash a un archivo, es posible añadir en la blockchain tanto el nombre de la persona que lo realizó, el nombre del archivo y el hash otorgado por el programa hasher. Desde luego que puede tener modificaciones esto para ser más automatizado, pero de inicio puede funcionar así cumpliendo su propósito.
 
 
+**- ¿Qué variables y funciones contiene el Smart Contract? **
+Contiene sólo una función de escritura con tres valores
+Función: hash_update
+Valores: newhash, file, name
+
+Funciones de lectura, van orientadas a consumir estos datos:
+filer - ligada a file
+namer - ligada a name
+hash_verify - ligada a newhash
+updater - ligada a la cuenta que ejecuta la transacción
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**- ¿Qué librería habéis implementado para la capa de conexión: Web3.js o Ethers.js? ¿Por qué?**
+Ha sido Web3.js derivado de lo enseñado en clase, no he tenido tiempo de explorar Ethers.js, ha sido esta la principal razón por la que no lo he explorado.

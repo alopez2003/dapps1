@@ -125,6 +125,28 @@ Nota: por las versiones de truffle y de los contratos, tuvimos que hacer algunas
 [https://www.edureka.co/community/33078/solidity-error-syntaxerror-no-visibility-specified](https://www.edureka.co/community/33078/solidity-error-syntaxerror-no-visibility-specified)
 
 
+Ahora ejecutamos el aplicativo, vamos al directorio "dapps1/client" y ejecutamos "npm start"
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/f0178188-e66d-4e11-a516-12b6cf6ecfcc)
+
+Tuve el siguiente error al intentar inicializar, al parecer un error con Nodes.js y la version de OpenSSL
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/60e095f4-dea1-4fb6-b7e4-7e47c28bc201)
+
+Aplique lo siguiente
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/805289c8-8f94-4ea5-a2ca-14bfed8bad18)
+
+Y posteriormente un "npm update"
+
+
+
+
+
+
+
+
+
 
 
 

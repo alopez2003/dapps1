@@ -139,6 +139,20 @@ Aplique lo siguiente
 
 Y posteriormente un "npm update"
 
+![image](https://github.com/alopez2003/dapps1/assets/67942268/ab54c7da-2b70-4003-bdf1-2a3af4227856)
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/56c7e465-cf9c-4be2-9798-4382d121d1df)
+
+Esto siguiendo lo puesto en el comentario 33 del blog de stackoverflow:
+[https://stackoverflow.com/questions/74726224/opensslerrorstack-error03000086digital-envelope-routinesinitialization-e](https://stackoverflow.com/questions/74726224/opensslerrorstack-error03000086digital-envelope-routinesinitialization-e)
+
+Y así funcionó correctamente
+
+![image](https://github.com/alopez2003/dapps1/assets/67942268/126e7acd-7121-40b0-a22c-d6b7e0d6900d)
+
+
+
+
 
 
 
